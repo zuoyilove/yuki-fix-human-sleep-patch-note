@@ -1,0 +1,1 @@
+import { mkdirSync, writeFileSync } from "node:fs"; const line = "Fixed: sleep no longer requires a 45-minute loading screen of every embarrassing thing you've said since 2009."; mkdirSync("/output", { recursive: true }); writeFileSync("/output/entry.txt", line + "\n"); console.log(line);
